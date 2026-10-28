@@ -32,6 +32,7 @@
 #define RCC_AHB1ENR_REG_OFFSET	0x30UL
 #define RCC_AHB1ENR_BASE_ADDR	(RCC_BASE_ADDR+RCC_AHB1ENR_REG_OFFSET)
 
+//This code runs on STM32F407G Microcontroller, in STM32CubeIDE environment.
 //GPIOD is connected to four LEDs. This program turn each of them on in turns.
 int main(void)
 {
